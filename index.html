@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task details</title>
+    <script src="scipt.js" type="module"></script>
+    <style>
+        body {
+            background-color: grey;
+        }
+        button{
+            font-family: sans-serif;
+            font-size: 15px;
+            background: linear-gradient(rgb(170, 170, 221),rgb(13, 155, 202));
+            padding: 5px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        
+
+    </style>
+</head>
+<body style=" display: flex;" >
+    <div id = "information" style="width: 70%; ">
+        <button id = "Address" class = "btn">Address</button>
+        <button id = "Task" class = "btn">Task</button>
+        <br><br>
+        <div id = "data"></div>
+    </div>
+   
+    <div id = "schedule">
+        <button id = "Schedule" onclick="location.href='card.html'">Schedule</button>
+    </div>
+</body>
+</html>
